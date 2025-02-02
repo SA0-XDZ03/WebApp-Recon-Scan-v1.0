@@ -26,7 +26,7 @@ fi
 logMessages "Updating System & Installing Required Packages ..."
 
 # Updating System
-sudo apt update && sudo apt upgrade -y && sudo apt clean && sudo apt autoremove
+sudo apt update && sudo apt upgrade -y && sudo apt clean && sudo apt autoremove && sudo apt clear
 
 # Installing Tools
 sudo apt install -y python3 python3-pip nmap git perl whois dnsrecon whatweb nikto
